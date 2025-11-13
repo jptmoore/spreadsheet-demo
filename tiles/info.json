@@ -1,32 +1,21 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://jptmoore.github.io/spreadsheet-demo/tiles/tiles",
+  "@id": "https://jptmoore.github.io/spreadsheet-demo/tiles",
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
-      "formats": [
-        "jpg"
-      ],
-      "qualities": [
-        "default"
-      ]
+      "formats": ["jpg"],
+      "qualities": ["default"]
     }
   ],
   "protocol": "http://iiif.io/api/image",
   "tiles": [
     {
-      "scaleFactors": [
-        1,
-        2,
-        4,
-        8,
-        16,
-        32,
-        64
-      ],
+      "scaleFactors": [1, 2, 4, 8, 16, 32, 64],
       "width": 512
     }
   ],
   "width": 26132,
   "height": 11915
 }
+
