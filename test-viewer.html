@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IIIF Tile Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
+    <style>
+        #viewer { width: 100%; height: 800px; }
+    </style>
+</head>
+<body>
+    <h1>IIIF Tile Test</h1>
+    <div id="viewer"></div>
+    <script>
+        OpenSeadragon({
+            id: "viewer",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/",
+            tileSources: "https://jptmoore.github.io/spreadsheet-demo/tiles/info.json",
+            showNavigator: true
+        });
+    </script>
+</body>
+</html>
