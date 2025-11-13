@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://jptmoore.github.io/spreadsheet-demo/out",
+  "@id": "https://jptmoore.github.io/spreadsheet-demo/out/info.json",
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
