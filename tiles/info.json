@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://example.com/iiif/tiles/info.json",
+  "@id": "https://jptmoore.github.io/spreadsheet-demo/tiles/tiles",
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
